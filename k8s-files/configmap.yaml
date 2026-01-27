@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: netflix-config
+  namespace: netflix
+data:
+  REACT_APP_API_URL: "https://api.themoviedb.org/3"
